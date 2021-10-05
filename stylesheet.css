@@ -7,6 +7,18 @@ body {
     background-color: indianred;
 }
 
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 25px color white;
+}
+
 .container {
     margin: auto;
     border: 2px solid purple;
@@ -14,6 +26,9 @@ body {
     height: 100vh;
 }
 
+.navigation-bar {
+    width: 100;
+}
 header {
     height: 20vh;
     border: 2px solid green;
@@ -24,7 +39,7 @@ header {
 }
 
 .subheading {
-    padding: 20px 0;
+    padding-bottom: 25px;
 }
 
 .services {
@@ -42,18 +57,33 @@ header {
 }
 
 .personal-bgimg {
-    background-image: url(/Images/Personal\ Image.jpeg);
+    background-image: url(/Images/Small\ Business.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    
+}
+
+.business-svcs {
+    background-image: url(/Images/Corporate\ Image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
 
 }
 
+.non-profit {
+    background-image: url(/Images/NonProfit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
 
 
 footer {
     height: 26vh;
     border: 2px black;
-    background-color: gray;
     outline: solid;
 
 }
