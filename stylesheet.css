@@ -5,6 +5,8 @@
 body {
     width: 90%;
     background-color: rgb(28, 119, 119);
+    font: 28px;
+    color: bisque;
 }
 /* header {height: 13%;
     border: 2px solid white ;
@@ -12,26 +14,45 @@ body {
 
 nav {
 height: 11%;
+margin: 0;
+padding: 0  ;
 /* border: 2px solid pink; */
 display: flex;
 justify-content: space-between;
 align-items: center;
-background-color: bisque;
+background-color:black;
 padding-right: 80px;
 color: black;
 }
 
+nav a {
+    color: bisque;
+    background-color: rgb(28, 119, 119);
+}
 
+nav a, .dropbtn {
+    display: inline-block;
+    color: bisque;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
 
 h1 {
-    font-size: 60px;
+    font-size: 80;
     color: bisque;
 }
 
 h2 {
     font-size: 30px;
     color: bisque;
+}
+
+ul description {
+    display: flex;
+    border: 2px solid purple;
+    
 }
 
 .container {
@@ -44,8 +65,12 @@ h2 {
 
 
 .subheading {
-    padding-bottom: 20px;
-    padding-top: 20px;
+    display: flex;
+    /* border: 2px solid purple; */
+    height: 35%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    justify-content: center;
 }
 
 .services {
@@ -65,7 +90,7 @@ h2 {
 }
 
 .personal-bgimg {
-    background-image: url(/Images/Small\ Business.jpeg);
+    background-image: url(/Images/Small\ business\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 30px;
@@ -73,7 +98,7 @@ h2 {
    }
 
    .business-svcs {
-    background-image: url(/Images/Corporate\ Image.jpeg);
+    background-image: url(/Images/corporate\ Image\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 30px;
@@ -81,7 +106,7 @@ h2 {
    }
 
    .non-profit {
-    background-image: url(/Images/NonProfit.jpg);
+    background-image: url(/Images/non-profit\ image\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 30px;
@@ -94,8 +119,8 @@ h2 {
         /* left: 50%; */
         /* transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%); */
-        background-color: #f1f1f1;
-        color: black;
+        background-color: rgb(28, 119, 119);
+        color:bisque;
         font-size: 16px;
         padding: 16px 30px;
         border: none;
@@ -105,9 +130,10 @@ h2 {
       }
       
       .btn:hover {
-        background-color: black;
-        color: white;
+        background-color:bisque;
+        color: black;
       }
+
 
 footer {
     height: 26vh;
