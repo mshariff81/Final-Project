@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock&display=swap');
+* {margin: 0; box-sizing: border-box;
+    font-family: 'Overlock', cursive;}
+
+form {
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+button {
+    background-color: rgb(23, 112, 112);
+    font-size: 18px;
+    color: bisque;
+    text-align: center;
+    padding: 15px 32px;
+}
+
+label {
+    font-size: 16px;
+    color: rgb(23, 112, 112);
+    margin-top:20px;    
+}
+
+label, input {
+    display: block;
+    
+  }
+
+h2 {
+    color: rgb(23, 112, 112);
+}
+
+.button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
