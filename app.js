@@ -9,8 +9,6 @@ form.addEventListener('submit', (e) => {
             //This is where you write your code
 
 
-
-
             //Do not alter below this line
         })
         .catch(error => console.error('Error!', error.message))
